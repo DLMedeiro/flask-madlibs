@@ -1,0 +1,50 @@
+body{
+    padding: 25px;
+    margin: 0;
+
+}
+
+form {
+    align-content: center;
+    padding: 20px;
+}
+
+.input-container{
+    display: block;
+    padding: 10px;
+}
+.container input {
+    display: inline-block;
+    width: 25%;
+    padding: 15px;
+    border: solid 1px #E5E5E5;
+    outline: 0;
+    font: bold 13px/100% Verdana, Tahoma, sans-serif;
+    background: #FFFFFF;
+}
+
+.container label{
+    display: inline-block;
+    width: 10%;
+    padding: 15px;
+    outline: 0;
+    font: bold 13px/100% Verdana, Tahoma, sans-serif;
+    /* text-align: center; */
+    background: #FFFFFF;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 20px;
+    margin: 20px;
+    width: 40%;
+    background-color: cadetblue;
+}
+
+button:hover{
+    background-color: rgb(41, 102, 102);
+}
+
+

@@ -1,0 +1,17 @@
+{%extends 'base.html'%}
+
+{%block title%} Story Inputs {%endblock%}
+
+{%block header%} Fill in the blanks to generate a new story {%endblock%}
+
+{%block content%} 
+    <form action="/story">
+        {%for input in inputs %}
+            <div class="input-container">
+                <label for="{{input}}">{{input}}</label>
+                <input type="text" id={{input}} name = {{input}} >
+            </div>
+        {%endfor%}
+        <button>Submit</button>
+    </form>
+{%endblock%}
